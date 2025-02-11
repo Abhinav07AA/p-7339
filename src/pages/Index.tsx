@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -18,14 +19,14 @@ const Index = () => {
         </div>
 
         <div className="mt-4">
-          <div className="gap-5 flex max-md:flex-col">
+          <div className="gap-4 flex max-md:flex-col">
             {/* Left Column */}
-            <div className="w-6/12 max-md:w-full">
+            <div className="w-1/2 max-md:w-full">
               <EquipmentGallery />
             </div>
 
             {/* Right Column */}
-            <div className="w-6/12 max-md:w-full">
+            <div className="w-1/2 max-md:w-full">
               <div className="flex flex-col">
                 <EquipmentDetails />
                 <EquipmentCalendar />

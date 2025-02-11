@@ -9,12 +9,12 @@ interface DateButtonProps {
 
 const DateButton: React.FC<DateButtonProps> = ({ day, month, isActive }) => (
   <button
-    className={`rounded bg-white border flex flex-col items-center w-[47px] h-[47px] px-[11px] py-1.5 border-[#d9d9d9] ${
+    className={`rounded bg-white border flex flex-col items-center w-[60px] h-[47px] px-2 py-1.5 border-[#d9d9d9] ${
       isActive ? "text-[#0B0B0B]" : "text-[#666]"
     }`}
   >
-    <span>{day}</span>
-    <span className="mt-[5px]">{month}</span>
+    <span className="text-sm">{day}</span>
+    <span className="text-sm mt-[5px]">{month}</span>
   </button>
 );
 

@@ -23,6 +23,9 @@ const Index = () => {
             {/* Left Column */}
             <div className="w-1/2 max-md:w-full">
               <EquipmentGallery />
+              <div className="mt-6">
+                <RentalSummary />
+              </div>
             </div>
 
             {/* Right Column */}
@@ -48,17 +51,6 @@ const Index = () => {
                   ))}
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-[9px]">
-          <div className="gap-5 flex max-md:flex-col">
-            <div className="w-[73%] max-md:w-full">
-              <RentalSummary />
-            </div>
-            <div className="w-[27%] max-md:w-full">
-              {/* This space intentionally left empty for future content */}
             </div>
           </div>
         </div>

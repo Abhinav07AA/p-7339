@@ -1,3 +1,4 @@
+
 import React from "react";
 
 interface DateButtonProps {
@@ -19,7 +20,7 @@ const DateButton: React.FC<DateButtonProps> = ({ day, month, isActive }) => (
 
 export const EquipmentCalendar = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-white border border-[#d9d9d9] rounded-xl p-6 mt-8">
       <h3 className="text-[#0B0B0B] text-sm font-medium tracking-[0.04px]">
         Available Dates
       </h3>

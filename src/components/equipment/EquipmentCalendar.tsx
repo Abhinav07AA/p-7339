@@ -24,33 +24,37 @@ export const EquipmentCalendar = () => {
       <h3 className="text-[#0B0B0B] text-sm font-medium tracking-[0.04px]">
         Available Dates
       </h3>
-      <div className="flex flex-wrap gap-[15px] mt-4">
-        <DateButton day="28" month="Jan" />
-        <DateButton day="29" month="Jan" />
-        <DateButton day="30" month="Jan" />
-        <DateButton day="31" month="Jan" />
-        <DateButton day="01" month="Feb" />
-        <DateButton day="02" month="Feb" />
-        <DateButton day="03" month="Feb" isActive />
-        <DateButton day="04" month="Feb" isActive />
-        <DateButton day="05" month="Feb" isActive />
-        <DateButton day="06" month="Feb" isActive />
-        <DateButton day="07" month="Feb" isActive />
-        <DateButton day="08" month="Feb" isActive />
-      </div>
-      <div className="flex flex-wrap gap-[15px] mt-3">
-        <DateButton day="09" month="Feb" isActive />
-        <DateButton day="10" month="Feb" isActive />
-        <DateButton day="11" month="Feb" isActive />
-        <DateButton day="12" month="Feb" isActive />
-        <DateButton day="13" month="Feb" isActive />
-        <DateButton day="14" month="Feb" isActive />
-        <DateButton day="15" month="Feb" isActive />
-        <DateButton day="16" month="Feb" isActive />
-        <DateButton day="17" month="Feb" isActive />
-        <DateButton day="18" month="Feb" isActive />
-        <DateButton day="19" month="Feb" isActive />
-        <DateButton day="20" month="Feb" isActive />
+      <div className="overflow-x-auto">
+        <div className="inline-block min-w-full">
+          <div className="flex flex-wrap gap-[15px] mt-4">
+            <DateButton day="28" month="Jan" />
+            <DateButton day="29" month="Jan" />
+            <DateButton day="30" month="Jan" />
+            <DateButton day="31" month="Jan" />
+            <DateButton day="01" month="Feb" />
+            <DateButton day="02" month="Feb" />
+            <DateButton day="03" month="Feb" isActive />
+            <DateButton day="04" month="Feb" isActive />
+            <DateButton day="05" month="Feb" isActive />
+            <DateButton day="06" month="Feb" isActive />
+            <DateButton day="07" month="Feb" isActive />
+            <DateButton day="08" month="Feb" isActive />
+          </div>
+          <div className="flex flex-wrap gap-[15px] mt-3">
+            <DateButton day="09" month="Feb" isActive />
+            <DateButton day="10" month="Feb" isActive />
+            <DateButton day="11" month="Feb" isActive />
+            <DateButton day="12" month="Feb" isActive />
+            <DateButton day="13" month="Feb" isActive />
+            <DateButton day="14" month="Feb" isActive />
+            <DateButton day="15" month="Feb" isActive />
+            <DateButton day="16" month="Feb" isActive />
+            <DateButton day="17" month="Feb" isActive />
+            <DateButton day="18" month="Feb" isActive />
+            <DateButton day="19" month="Feb" isActive />
+            <DateButton day="20" month="Feb" isActive />
+          </div>
+        </div>
       </div>
       <div className="flex w-full items-stretch gap-4 mt-8">
         <button className="flex-grow bg-[#388E3C] text-white font-medium uppercase tracking-[0.18px] px-8 py-[21px] rounded-[100px]">
